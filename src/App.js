@@ -10,7 +10,7 @@ import Map from './components/Map/Map';
 const App = () => {
   const [places, setPlaces] = useState([]);
   const [coordinates, setCoordinates] = useState({});
-  const [bounds, setBounds] = useState({ sw: 0, ne: 0 });
+  const [bounds, setBounds] = useState({});
 
   useEffect(() => {
     console.log(bounds);
